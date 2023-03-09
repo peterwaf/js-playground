@@ -6,7 +6,7 @@ function getMaximumNumber(arr) {
     //declare the maximum number variable and set as default maxNumberTracker
     let maxNumber = maxNumberTracker;
     //loop through the array from position 1
-    for (i = 1; i < arr.length; i++) {
+    for ( let i = 1; i < arr.length; i++) {
         if (arr[i] > maxNumberTracker) {
             maxNumberTracker = arr[i];
             maxNumber = maxNumberTracker;
