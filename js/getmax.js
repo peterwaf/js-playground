@@ -18,5 +18,6 @@ function getMaximumNumber(arr) {
     }
     return maxNumber;
 }
+console.log("The numbers are : "+ numbersContainer)
 
-console.log(getMaximumNumber(numbersContainer))
+console.log("The maximum number is :"+getMaximumNumber(numbersContainer))
