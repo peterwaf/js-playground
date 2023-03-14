@@ -5,7 +5,7 @@ const divFour = document.getElementById("box4")
 const textOne = document.getElementById("text-1")
 const boxText = document.getElementById("box-4-text-input")
 const focusText = document.getElementById("focus-text")
-//html file examples location at ../js_events.html
+//html file for some explanation located at ../js_events.html
 
 //1. What is the difference between the "click" and "dblclick" events in JavaScript?
 //=> click - the click function code is activated when the user clicks on the mouse once i.e clicks left mouse button clicks once
