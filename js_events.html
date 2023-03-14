@@ -7,14 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Play BOOK</title>
     <style>
-        body{text-align: center;}
-         h1{
+        body {
             text-align: center;
         }
-        body h2{
+
+        h1 {
             text-align: center;
         }
-        #box1{
+
+        body h2 {
+            text-align: center;
+        }
+
+        #box1 {
             width: 200px;
             height: 100px;
             background-color: aqua;
@@ -23,50 +28,52 @@
             padding: 5px;
             margin-bottom: 5px;
         }
-        #box2{
+
+        #box2 {
             width: 200px;
             height: 100px;
-            background-color:brown;
-            margin: auto;
-            text-align: center;
-            padding: 5px;
-            margin-bottom: 5px;
-        }
-        #box3{
-            width: 200px;
-            height: 100px;
-            background-color:blue;
-            margin: auto;
-            text-align: center;
-            padding: 5px;
-            margin-bottom: 5px;
-        }
-        #box4{
-            width: 200px;
-            height: 100px;
-            background-color:blanchedalmond;
+            background-color: brown;
             margin: auto;
             text-align: center;
             padding: 5px;
             margin-bottom: 5px;
         }
 
-        #box5{
+        #box3 {
             width: 200px;
             height: 100px;
-            background-color:aquamarine;
+            background-color: blue;
             margin: auto;
             text-align: center;
             padding: 5px;
             margin-bottom: 5px;
         }
-        
+
+        #box4 {
+            width: 200px;
+            height: 100px;
+            background-color: blanchedalmond;
+            margin: auto;
+            text-align: center;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+
+        #box5 {
+            width: 200px;
+            height: 100px;
+            background-color: aquamarine;
+            margin: auto;
+            text-align: center;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 
 <body>
     <h1>Javascript Events</h1>
-    <h2>Click Event</h2>
+    <h2>click Event</h2>
     <div id="box1">
         Box 1
     </div>
@@ -77,20 +84,18 @@
     <h2>keydown Event</h2>
     <div id="box3">
         Box 3
-        <P>Your Name :</P><input type="text" id="text-1" placeholder="Focus on a key">
+        <P>Your Name :</P><input type="text" id="text-1" placeholder="Click and press on a key">
         <p id="key_content">Key down content</p>
     </div>
 
-    <h2>Focus Event</h2>
-        <P>Your Name :</P><input type="text" id="box-4-text-input" placeholder="Focus Mouse">
-        <p id="focus-text"></p>
+    <h2>blur Event</h2>
+    <P>Your Name :</P><input type="text" id="box-4-text-input" placeholder="Focus Mouse">
+    <p id="focus-text"></p>
 
-    <h2>Mouse Over Event</h2>
+    <h2>Prevent default event</h2>
+    <p id="google-link-message"></p>
+    <a id="google-link" href="https://www.google.com/">This link goes to Google by default</a>
 
-    <div id="box5">
-        Box 5
-        <p id="mouse-over"></p>
-    </div>
 
     <!-- hide script.js start
     <script src="js/script.js"></script>
